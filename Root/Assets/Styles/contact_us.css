@@ -1,0 +1,75 @@
+
+form {
+    align-items: center;
+    background-image: url("Assets/Images/back.png");
+    background-color: rgb(118, 125, 114); 
+    display: block;
+    float: left;
+}
+
+legend {
+    background-color: rgb(67, 76, 169);
+    color: white;
+    padding: 5px;
+}
+
+/* Label styles */
+label {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 10px 5% 10px 5px;
+    width: 40%;
+}
+
+/* Input control styles */
+input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    width: 50%;
+}
+
+/* Selection list styles */
+select {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+}
+
+
+
+/* checkbox styles  */
+input#call {
+    clear: left;
+    width: 25px;
+}
+
+input#call+label {
+    clear: left;
+    width: auto;
+}
+/* buttom styles */
+input[type="submit"] {
+    clear: left;
+}
+input[type="submit"],input[type="reset"] {
+    height: 40px;
+    margin-right: 20px;
+    width: 200px;
+}
+/* Validation styles */
+input:focus, select:focus {
+    background-color: ivory;
+}
+
+input:focus:valid {
+    background: rgb(60, 199, 60) url(Assets/images/go.png) bottom right no-repeat;
+}
+
+input:focus:invalid {
+    background: rgb(208, 9, 19) url(Assets/images/stop.png) bottom right no-repeat;
+}
