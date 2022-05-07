@@ -1,0 +1,14 @@
+table{
+    display: inline-table;
+    text-align: center;
+    border: solid 2px;
+    width: 100%;
+}
+
+table,th,tr,td {
+    border: solid 2px;
+
+}
+table tr th{
+    background-color: aqua;
+}

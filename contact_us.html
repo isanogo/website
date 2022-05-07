@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        author : issa sanogo
+        date: thursday, 5th 2022
+        final project contact page :  
+        
+               supprting files       :  layout.css
+                                         mybanner.jpg
+                                         Assets/Styles/main.css
+                                         Assets/Styles/contact_us.css
+                                         Assets/Images/banner.png
+                                                                     -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conatct_us </title>
+    <link href="Assets/Styles/main.css" rel="stylesheet"/> 
+    <link href="Assets/Styles/contact_us.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <img src="Assets/Images/banner.png" alt="banner" width="800" height="250">
+     <nav>
+        <ul>
+            <li><a href="index1.html">About us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact_us.html">contact us</a></li>
+            <li><a href="news.html"> News</a></li>
+        </ul>
+     </nav>
+    </header>        
+       
+        <form action="http://www.IssaS&corp.com" method="post">
+
+                <label for="fName">First Name</label>
+                <input type="text" id="fName" name="fName" required="required"/>
+
+                <label for="lName">Last Name</label>
+                <input type="text" id="lName" name="lName" required="required"/>
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required="required">
+
+                 <label for="city">City</label>
+                 <input type="text" id="city" name="city" required="required">
+
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required="required" value="Ivory Coast">
+                    
+                 
+                <label for="zip">Postal Code</label>
+                <input type="text" id="zip" name="zip"  placeholder="nnnn (-nnnn)"
+                    pattern="^\d{5} (\-\d{4})?$"/>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone"  placeholder="(nnn) nnn-nnnn" 
+                required="required"
+                       pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+     
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"/>
+                    
+
+                <label for="interest">contact Issa&corp. for :</label>
+                <select id="interest" name="interest" size="4" multiple="multiple">
+                    <option value="reservation">making a reservation for your sojourn</option>
+                    <option value="buy">buying house(s)</option>
+                    <option value="rent">Renting your house through us </option>
+                    <option value="become our partner">making a partnership</option>
+                </select>
+
+                    
+                 <input type="checkbox" id="call" name="call"/>
+                 <label for="call"> Send me monthly newsletter </label>
+
+
+                 <input type="submit"  value="Send"/>
+                 <input type="reset" value="Reset"/>
+        </form>
+
+<footer>
+    <address>
+        <p>IssaS&corp.
+            <a href="http://www.IssaS&corp.com">www.IssaS&corp@yahoo.com</a><br/>
+            Abidjan Plateau<br/>
+            rue du commerce<br/>
+            immeuble le general<br/>
+            </p>
+            Email: <a href="mailto:IssaS&corp@yahoo.com">IssaS&corp@yahoo.com</a><br/>
+            Tel: <a href="tel:+3149336404">+3149336404</a><br/>
+    </address>
+</footer>
+<br><br><br>
+</body>
+</html>

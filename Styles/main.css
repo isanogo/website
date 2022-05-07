@@ -1,0 +1,125 @@
+/* 
+young Notes Base style sheet 
+author: issa sanogo
+date:: april 12 2022
+filename: main.css
+
+
+
+/* display HTML5 sturcutural elements as blocks*/
+article , footer, header,
+ section, nav {
+    display: block;
+}
+
+/* set the default page element styles*/
+header{
+    margin: 0%;
+    padding: 0px;
+    width: 100%;
+    float: none;
+    
+    
+}
+body{
+    margin: 0px auto;
+    width:800px;
+}
+
+/* Navigation list*/
+nav{
+    display: table;
+    width: 100%;
+    float: none;
+}
+
+nav > ul {
+    display: table-row;
+    text-align: center;
+    list-style: none;
+    margin-right: 1px;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+nav > ul > li {
+    display: table-cell;
+    width: 19%;
+    text-align: center;
+    border: 1px solid rgb(135, 136, 143);
+    
+}
+
+/* navigation links */
+nav > ul > li > a {
+    display:block;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(174, 181, 150);
+    width: 100%;
+}
+
+/* h1, h2 ,h3, p */
+h1{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: rgb(68 76 169);
+    margin-top: 15px;
+}
+h2{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: rgb(68 76 169);
+    margin-top: 15px;
+}
+h3{
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: rgb(68 76 169);
+    margin-top: 15px;
+}
+p{
+    margin:7px;
+}
+
+#main {
+    border-top: 2px solid rgb(68 76 169);
+}
+/*
+#main ul{
+    list-style-type: circle;
+    margin-left: 50px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#main ul li {
+    margin-top: 10px;
+}
+#main ul li strong{
+    font-weight: normal;
+    color: rgb(68 76 169);
+}
+*/
+
+footer{
+    border-top: 2px solid rgb(68 76 169);
+     /*  clear: all*/
+    float: left;
+    width: 100%;
+}
+address{
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}
+/* images styles 
+img.irregularWrap {
+    clear: right;
+    float:right;
+    margin: 0px;
+}*/

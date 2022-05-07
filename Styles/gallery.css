@@ -1,0 +1,20 @@
+ul#photos{
+    width: 60%;
+    margin: 100px auto;
+}
+
+ul#photos li{
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+ul#photos li img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+
+}
